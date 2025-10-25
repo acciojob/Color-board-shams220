@@ -16,6 +16,9 @@
         gap: 0; 
         padding: 2rem 2rem 2rem 2rem;
       }
+.square{
+	background-color:rgb(29, 29, 29)
+}
       .square{
          transition: background-color 0.1s ease-in; 
       

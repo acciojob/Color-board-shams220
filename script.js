@@ -21,7 +21,7 @@ for(let i = 1;i<=800;i++){
 	div.style.width = "14px";
 	div.style.height = "14px";
     div.style.margin ="4px"
-	div.style.backgroundColor = "grey";
+	div.style.backgroundColor = "rgb(29, 29, 29)";
 	document.querySelector(".container").appendChild(div);
 }
 
@@ -42,7 +42,7 @@ sq.forEach(s=>
 s.addEventListener('mouseout',(e)=>{
  
     
-    s.style.backgroundColor="grey";
+    s.style.backgroundColor="rgb(29, 29, 29)";
 })
 
 
