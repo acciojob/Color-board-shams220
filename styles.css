@@ -1,1 +1,28 @@
-/*  your css code here. If applicable */
+
+       body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden; 
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start; 
+        align-content: flex-start; 
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        gap: 0; 
+        padding: 2rem 2rem 2rem 2rem;
+      }
+      .square{
+         transition: background-color 0.1s ease-in; 
+      
+        }
+    
+.square:hover {
+  
+  transition: background-color 1s ease-out;
+}
+ 
